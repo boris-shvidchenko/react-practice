@@ -12,4 +12,4 @@ const markupPage = (
         </ul>
     </div>
 );
-ReactDOM.render(markupPage, bodyElem)
+ReactDOM.render(markupPage, bodyElem) 
