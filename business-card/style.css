@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+   background-color: #23252C; 
+}
+
+#root {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    background-color: #32343b;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.info {
+    text-align: center
+}
+
+.info--image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.info--name {
+    display: block;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.info--title {
+    display: block;
+    color: #25a1e8;
+    letter-spacing: 0.5px;
+}
+
+.info--link {
+    display: block;
+    margin: 15px 0 15px;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 0.5px;  
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info--btn {
+    display: flex;
+    margin: 10px 10px 20px; 
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.1s;
+}
+
+.email-btn:hover {
+    background-color: #d4d2d2;
+    transition: 0.1s;
+}
+
+.info--email-text {
+    display: inline-block;
+    color: #23252C;
+    margin-top: 10px;
+}
+
+.linkedin-btn {
+     color: #fff;
+     background-color: #25a1e8;
+}
+
+.linkedin-btn:hover {
+    background-color: #1f87c2;
+    transition: 0.1s;
+}
+
+.info--linkedin-text {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.info--logo {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+    opacity: 75%;
+    margin-top: 8px;
+}
+
+.about {
+    padding: 10px 30px;
+}
+
+.about--title {
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.about--text {
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+}
+
+.interests {
+    padding: 10px 30px 30px;
+}
+
+.interests--title {
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.interests--text {
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+}
+
+.footer {
+    display: flex;    
+    justify-content: space-around;
+    padding: 10px 50px 10px; 
+    background-color: #5d636b;
+}
+
+.footer--logo {
+    width: 38px;
+    background-color: #5d636b;
+    opacity: 75%;
+}
+
