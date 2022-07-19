@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: #f55a5a;
+    color: #fff;
+}
+
