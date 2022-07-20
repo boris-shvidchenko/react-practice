@@ -3,10 +3,10 @@ import React from "react"
 export default function Cards(props) {
     return (
         <div className = "cards">
-            <img src = {props.data.imageUrl} alt = "" />
+            <img src = {props.data.imageUrl} alt = "Card image" className = "cards--img"/>
             <div className = "cards--info">
                 <div className = "cards--info--location">
-                    <p className = "location">{props.data.location}</p>
+                    <p className = "location"><img src = "../images/location-dot-solid.svg" alt = "Location icon" className = "cards--icon"/>{props.data.location}</p>
                     <a className = "map" href = {props.data.googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h1 className = "cards--info--title" >{props.data.title}</h1>
@@ -19,4 +19,4 @@ export default function Cards(props) {
     
         
 
-            
+               
