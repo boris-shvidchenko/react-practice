@@ -8,6 +8,7 @@ export default function App() {
     const cardData = dataArray.map((data) => {
         return (
             <Cards 
+                key = {data.key}
                 data = {data}
             />
         )
@@ -20,5 +21,7 @@ export default function App() {
         </div>
     )
 }
+
+
 
             
