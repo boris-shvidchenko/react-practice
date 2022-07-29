@@ -1,5 +1,6 @@
 import React from "react";
 
+// Form, holds the component for the page. 
 export default function Form() {
     
     const [formData, setFormData] = React.useState(
